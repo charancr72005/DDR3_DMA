@@ -1,0 +1,38 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.365188",
+   "Default View_TopLeft":"-613,-884",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port DDR3_0 -pg 1 -lvl 7 -x 1950 -y -130 -defaultsOSRD
+preplace port port-id_clk_in1_0 -pg 1 -lvl 0 -x -230 -y -440 -defaultsOSRD
+preplace port port-id_sys_rst_0 -pg 1 -lvl 0 -x -230 -y -100 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 6 -x 1780 -y -80 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 5 -x 1430 -y -100 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 3 -x 840 -y -360 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 520 -y -530 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 520 -y -390 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 5 -x 1430 -y -260 -defaultsOSRD
+preplace inst smartconnect_1 -pg 1 -lvl 4 -x 1100 -y -240 -defaultsOSRD
+preplace netloc clk_in1_0_1 1 0 3 N -440 80 -330 690
+preplace netloc clk_wiz_0_clk_out1 1 3 3 N -380 N -380 1620J
+preplace netloc clk_wiz_0_clk_out2 1 3 3 NJ -360 1230 -370 1610
+preplace netloc microblaze_0_Clk 1 1 6 350 -280 N -280 970J -330 1230 30 N 30 1900J
+preplace netloc mig_7series_0_mmcm_locked 1 1 6 340 -270 NJ -270 960J -350 1260 -360 NJ -360 1910
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 1 6 330 -630 NJ -630 NJ -630 N -630 NJ -630 1900
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 2 3 NJ -510 950 -340 1260
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 4 NJ -490 N -490 1250 -10 1640
+preplace netloc sys_rst_0_1 1 0 6 NJ -100 320 0 NJ 0 NJ 0 N 0 1630J
+preplace netloc util_vector_logic_0_Res 1 2 1 690 -390n
+preplace netloc axi_dma_0_M_AXI_MM2S 1 4 2 1270 -350 1590
+preplace netloc mig_7series_0_DDR3 1 6 1 N -130
+preplace netloc smartconnect_0_M00_AXI 1 5 1 1600 -260n
+preplace netloc smartconnect_1_M00_AXI 1 4 1 1240 -240n
+levelinfo -pg 1 -230 60 520 840 1100 1430 1780 1950
+pagesize -pg 1 -db -bbox -sgen -350 -820 2050 370
+"
+}
+{
+   "da_mb_cnt":"1"
+}
