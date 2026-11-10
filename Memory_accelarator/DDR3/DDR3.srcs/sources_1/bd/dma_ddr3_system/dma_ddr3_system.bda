@@ -196,6 +196,42 @@
             },
             "V3": {
                 "VT": "AC",
+                "BA": "0x00000000",
+                "HA": "0x00001FFF",
+                "BP": "C_S_AXI_BASEADDR",
+                "HP": "C_S_AXI_HIGHADDR",
+                "MA": "M_AXI",
+                "MX": "/picorv32_axi_wrapper_0",
+                "MI": "M_AXI",
+                "MS": "SEG_axi_bram_ctrl_0_Mem0",
+                "MV": "xilinx.com:module_ref:picorv32_axi_wrapper:1.0",
+                "SX": "/axi_bram_ctrl_0",
+                "SI": "S_AXI",
+                "SS": "Mem0",
+                "SV": "xilinx.com:ip:axi_bram_ctrl:4.1",
+                "TM": "both",
+                "TU": "memory"
+            },
+            "V4": {
+                "VT": "AC",
+                "BA": "0x41E00000",
+                "HA": "0x41E0FFFF",
+                "BP": "C_BASEADDR",
+                "HP": "C_HIGHADDR",
+                "MA": "M_AXI",
+                "MX": "/picorv32_axi_wrapper_0",
+                "MI": "M_AXI",
+                "MS": "SEG_axi_dma_0_Reg",
+                "MV": "xilinx.com:module_ref:picorv32_axi_wrapper:1.0",
+                "SX": "/axi_dma_0",
+                "SI": "S_AXI_LITE",
+                "SS": "Reg",
+                "SV": "xilinx.com:ip:axi_dma:7.1",
+                "TM": "both",
+                "TU": "register"
+            },
+            "V5": {
+                "VT": "AC",
                 "BA": "0x80000000",
                 "HA": "0x8FFFFFFF",
                 "BP": "C_BASEADDR",
@@ -225,6 +261,16 @@
             },
             {
                 "src": "V3",
+                "trg": "V2",
+                "EH": "2"
+            },
+            {
+                "src": "V4",
+                "trg": "V2",
+                "EH": "2"
+            },
+            {
+                "src": "V5",
                 "trg": "V2",
                 "EH": "2"
             }
